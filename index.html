@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .navbar-brand {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: rgb(89, 98, 223);
+        }
+
+        .navbar .btn-primary {
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            outline: blueviolet;
+            color: rgb(89, 98, 223);
+            background-color: white;
+        }
+
+        .sec-1 {
+            padding: 100px;
+        }
+
+        .sec-1 h1 {
+            font-size: 60px;
+            font-family: fantasy;
+
+        }
+
+        .sec-1 h5 {
+            margin-top: 35px;
+            font-size: 15px;
+            color: rgb(170, 171, 173);
+            line-height: 1.6;
+        }
+
+        .sec-1 form {
+            margin-top: 50px;
+        }
+
+        .sec-1 .btn-primary {
+            padding: 15px 25px;
+            font-size: 12px;
+            background-color: rgb(89, 98, 223);
+            text-align: center;
+            border-radius: 70px;
+            width: 50%;
+            font-weight: bold;
+        }
+
+        .sec-2 {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .sec-2 h1 {
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(32, 32, 32);
+        }
+
+        .sec-3 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .cd-comp-1 {
+            margin-top: 50px;
+            background-color: rgb(89, 98, 223);
+
+        }
+
+        .cd-comp-1 h5 {
+            margin-top: -30px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .cd-comp-1 p {
+            font-size: 14px;
+            color: white;
+
+        }
+
+        .cd-comp-2 {
+            margin-top: 100px;
+            background-color: rgb(193, 245, 228);
+
+        }
+
+        .cd-comp-2 h5 {
+            margin-top: -30px;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .cd-comp-2 p {
+            font-size: 14px;
+            color: black;
+
+        }
+
+        .cd-comp-3 {
+            margin-top: 65px;
+            background-color: rgba(247, 201, 102, 0.747);
+
+        }
+
+        .cd-comp-3 h5 {
+            margin-top: -30px;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .cd-comp-3 p {
+            font-size: 14px;
+            color: black;
+
+        }
+
+
+        .sec-4 {
+            margin-top: 150px;
+        }
+
+        .sec-4 h1 {
+            padding: 15px;
+            font-weight: bold;
+            margin-top: 30px;
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(32, 32, 32);
+        }
+
+        .sec-4 p {
+            font-size: 15px;
+            color: rgb(170, 171, 173);
+            line-height: 1.6;
+        }
+
+        .sec-4 .btn-primary {
+            align-items: center;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: rgb(89, 98, 223);
+            text-align: center;
+            border-radius: 70px;
+            width: 25%;
+        }
+
+        .sec-5 {
+            margin-top: 200px;
+        }
+
+        .sec-5 h1 {
+            padding: 25px;
+            font-weight: bold;
+            margin-top: 30px;
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(32, 32, 32);
+        }
+
+        .sec-5 p {
+            font-size: 15px;
+            color: rgb(170, 171, 173);
+            line-height: 1.6;
+        }
+
+        .sec-5 .app {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 30px;
+
+        }
+
+        .sec-5 .app2 {
+            margin-left: 100px;
+        }
+
+        .sec-6 {
+            margin-top: 80px;
+        }
+
+        .sec-6 h1 {
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(32, 32, 32);
+            text-align: center;
+        }
+
+        .sec-7 {
+            margin-top: 5pxpx;
+        }
+
+        .sec-7 h1 {
+            font-size: 120px;
+            font-weight: bold;
+            color: rgb(89, 98, 223);
+            padding: -500px, 300px;
+
+        }
+
+        .sec-7 .simg-2 {
+            margin-top: 160px;
+            align-items: center;
+        }
+
+
+        .sec-8 {
+            margin-top: 150px;
+            margin-bottom: 150px;
+            text-align: center;
+        }
+
+        .sec-8 h1 {
+            padding: 15px;
+            font-weight: bold;
+            margin-top: 30px;
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(32, 32, 32);
+        }
+
+        .sec-8 p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .sec-8 .btn-primary {
+            align-items: center;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: rgb(89, 98, 223);
+            text-align: center;
+            border-radius: 70px;
+            width: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Taskia</a>
+                <div class="d-flex" id="navbarSupportedContent">
+                    <button class="btn btn-primary btn-lg" type="submit">Try free</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="sec-1 col-md-6">
+                <h1>Task management and lists Tool</h1>
+                <h5>We believe that designing products and services in close partnership with our clients is the only
+                    way to have a real impact on their business. </h5>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Name@company.com" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Try it free</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/hero image.jpg" alt="hero" width="500px" height="500px">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-2 container">
+        <div class="row">
+            <h1>Featured Service that We Provide</h1>
+        </div>
+    </section>
+
+    <section class="sec-3 container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="cd-comp-1 card" style="width: 18rem;">
+                    <img src="Images/Image 3.png" class="card-img-top" alt="image-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Keep tasks in<br> one place</h5>
+                        <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to
+                            stay on schedule</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cd-comp-2 card" style="width: 18rem;">
+                    <img src="Images/Image 2.png" class="card-img-top" alt="image-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Keep tasks<br> in one place</h5>
+                        <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to
+                            stay on schedule</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cd-comp-3 card" style="width: 18rem;">
+                    <img src="Images/Image 1.png" class="card-img-top" alt="image-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Keep tasks<br> in one place</h5>
+                        <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to
+                            stay on schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sec-4 container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Images/Image 8.jpg" alt="img-8" width="500px" height="350px">
+            </div>
+            <div class="col-md-6">
+                <h1>Why do you need task management</h1>
+                <p>Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out
+                    what to work on first? Then you need one solution to prioritize your tasks, manage your time, and
+                    meet your deadlines.
+                </p>
+                <button class="btn btn-primary" type="submit">Learn more</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sec-5 container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Seamless Team Workflow & Efficient</h1>
+                <p>Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out
+                    what to work on first? Then you need one solution to prioritize your tasks, manage
+                    your time, and meet your deadlines.</p>
+
+                <div class="app">
+                    <img class="app1" src="Images/Image 6.jpg" alt="img-6" width="50px" height="50px">
+
+                    <img class="app2" src="Images/Image 9.jpg" alt="img-9" width="50px" height="50px">
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Image 7.jpg" alt="img-7" width="600px" height="450px">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sec-6 container">
+        <div class="row">
+            <h1>Trust us and feel free to try our service</h1>
+        </div>
+    </section>
+
+    <section class="sec-7 container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="simg-1" src="Images/Image 4.jpg" alt="img-4" width="175px" height="175px">
+            </div>
+            <div class="col-md-4">
+                <h1>100000</h1>
+            </div>
+            <div class="col-md-4">
+                <img class="simg-2" src="Images/Image 5.jpg" alt="img-4" width="225px" height="225px">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-8 container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Get better work done</h1>
+                <p>See why millions of people across 195 <br>countries use Dash.</p>
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Name@company.com"
+                                aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Try it free</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+
+
+</html>
